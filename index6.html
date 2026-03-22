@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Minecraft Logo" class="btre">
+        <h1>ЗАМОВИТИ</h1>
+        <button class="btn">DOWNLOAD</button>
+    </header>
+    <nav>
+        <a href="index3.html">ІГРИ</a>
+        <a href="index5.html">ПІДТРИМКА</a>
+        <a href="index4.html">МАГАЗИН</a>
+        <a href="index2.html">МОБИ</a>
+        <a href="index.html">ГОЛОВНА</a>
+        <a href="index6.html">ЗАМОВИТИ</a>
+    </nav>
+    <main>
+        <h2>Оформлення замовлення</h2>
+        <form action="#" method="post">
+            <label>
+                Ім’я:
+                <input type="text" name="name" required>
+            </label>
+
+            <label>
+                Email:
+                <input type="email" name="email" required>
+            </label>
+
+            <label>
+                Телефон:
+                <input type="tel" name="phone">
+            </label>
+
+            <label>
+                Товар:
+                <select name="product" required>
+                    <option value="">– оберіть –</option>
+                    <option value="lego">лего</option>
+                    <option value="xxx">штани</option>
+                    <option value="mug">іграшка стів</option>
+                    <option value="lamp">світильник</option>
+                    <option value="statue">статуя вардена</option>
+                    <option value="figures">6 фігурок</option>
+                </select>
+            </label>
+
+            <label>
+                Кількість:
+                <input type="number" name="quantity" min="1" value="1">
+            </label>
+
+            <label>
+                Коментар або адреса доставки:
+                <textarea name="notes" rows="3"></textarea>
+            </label>
+
+            <button type="submit">Замовити</button>
+        </form>
+        <h1 class="vd">Будь ласка, введіть свої дані</h1>
+        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/1kKaRzjW8OiGLriIdpXHT1?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </main>
+</body>
+</html>
